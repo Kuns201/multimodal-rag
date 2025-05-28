@@ -1,0 +1,14 @@
+
+fastapi
+uvicorn
+openai
+PyMuPDF
+faiss-cpu
+pdfplumber
+easyocr
+numpy
+ragas
+datasets
+transformers
+torch
+Pillow
