@@ -12,3 +12,4 @@ datasets
 transformers
 torch
 Pillow
+whoosh
