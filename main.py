@@ -159,5 +159,4 @@ async def query(user_id: str = Form(...), question: str = Form(...), role: str =
         "sources": [{"filename": c["filename"], "page": c["page"], "url": c["url"], "tag": c["tag"]} for c in top_chunks],
         "ragas_scores": results
     }
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=10000)
+
